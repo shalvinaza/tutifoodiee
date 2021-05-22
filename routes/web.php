@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('landing_page','TutiController@landingpage');
+Route::get('restaurants','TutiController@restaurants');
+Route::get('restaurant_detail','TutiController@restaurantDetail');
