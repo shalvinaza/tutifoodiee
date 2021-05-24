@@ -1,0 +1,242 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:Film;
+    data:id "0001";
+    data:name "Alas Daun Restaurant";
+    data:province "Jawa Barat";
+    data:city "Bandung";
+    data:category "sundanese";
+    data:special_menu "Ayam Bumbu Hejo";
+    data:alamat "Jl. Citarum No.34, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40116";
+    data:rating "4.5";
+    data:noTelp "(022) 7231101";
+    .
+
+data:2 rdf:type data:Film;
+    data:id "0002";
+    data:name "Raja Sunda";
+    data:province "Jawa Barat";
+    data:city "Bandung";
+    data:category "sundanese";
+    data:special_menu "Nasi Tutug Oncom";
+    data:alamat "Jl. Dr. Djunjunan No.63, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40242";
+    data:rating "4.5";
+    data:noTelp "(022) 6037688";
+    .
+
+data:3 rdf:type data:Film;
+    data:id "0003";
+    data:name "Malah Dicubo";
+    data:province "Jawa Barat";
+    data:city "Bandung";
+    data:category "padang";
+    data:special_menu "Rendang";
+    data:alamat "Malah Dicubo";
+    data:rating "4.5";
+    data:noTelp "(022) 4214581";
+    .
+
+data:4 rdf:type data:Film;
+    data:id "0004";
+    data:name "Glosis Restaurant";
+    data:province "Jawa Barat";
+    data:city "Bandung";
+    data:category "western";
+    data:special_menu "Steak";
+    data:alamat "Jl. Citarum No.12, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40114";
+    data:rating "4.5";
+    data:noTelp "(022) 87831500";
+    .
+
+data:5 rdf:type data:Film;
+    data:id "0005";
+    data:name "Yuraku";
+    data:province "Jawa Barat";
+    data:city "Bekasi";
+    data:category "buffet";
+    data:special_menu "Suki";
+    data:alamat "Jl. Ahmad Yani, Summarecon Mall Bekasi Lantai Ground, Bekasi";
+    data:rating "4";
+    data:noTelp "(021) 29572552";
+    .
+
+data:6 rdf:type data:Film;
+    data:id "0006";
+    data:name "Gendis Restaurant";
+    data:province "Jawa Barat";
+    data:city "Bekasi";
+    data:category "buffet";
+    data:special_menu "Suki";
+    data:alamat "Jl. Harapan Indah Bulevar No. 10-12 17131, Bekasi, West Java";
+    data:rating "4";
+    data:noTelp "(021) 88868886";
+    .
+
+data:7 rdf:type data:Film;
+    data:id "0007";
+    data:name "Restoran Padang Sederhana";
+    data:province "Jawa Barat";
+    data:city "Bekasi";
+    data:category "padang";
+    data:special_menu "Kikil";
+    data:alamat "Jl. Narogong Raya KM. 7,Bekasi,Indonesia";
+    data:rating "4";
+    data:noTelp "(021) 44440292";
+    .
+
+data:8 rdf:type data:Film;
+    data:id "0008";
+    data:name "Cibiuk - Rumah Makan Khas Sunda";
+    data:province "Jawa Barat";
+    data:city "Bekasi";
+    data:category "sundanese";
+    data:special_menu "Ayam Bumbu Hejo";
+    data:alamat "Jl. RA Kartini No.11B, 17116, Bekasi, West Java";
+    data:rating "4";
+    data:noTelp "(021) 46640292";
+    .
+
+data:9 rdf:type data:Film;
+    data:id "0009";
+    data:name "Djoeragan Resto & Lounge";
+    data:province "Jawa Barat";
+    data:city "Bogor";
+    data:category "buffet";
+    data:special_menu "Dessert";
+    data:alamat "Suryakencana St No.179-181, RT.02/RW.02, Babakan Pasar, Central Bogor, Bogor City, West Java 16126";
+    data:rating "4.5";
+    data:noTelp "(0251) 7565101";
+    .
+
+data:10 rdf:type data:Film;
+    data:id "0010";
+    data:name "Gurih 7 Bogor";
+    data:province "Jawa Barat";
+    data:city "Bogor";
+    data:category "sundanese";
+    data:special_menu "Seafood";
+    data:alamat "Jl. Raya Pajajaran No.102, RT.03/RW.12, Bantarjati, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153";
+    data:rating "4.5";
+    data:noTelp "(0251) 8317889";
+    .
+
+data:11 rdf:type data:Film;
+    data:id "0011";
+    data:name "Restoran Trio Masakan Padang";
+    data:province "Jawa Barat";
+    data:city "Bogor";
+    data:category "padang";
+    data:special_menu "Sate Padang";
+    data:alamat "Jl. Raya Pajajaran No.221, RT.02/RW.11, Bantarjati, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153";
+    data:rating "4.5";
+    data:noTelp "(0251) 8360635";
+    .
+
+data:12 rdf:type data:Film;
+    data:id "0012";
+    data:name "B'Steak Grill & Pancake Bogor";
+    data:province "Jawa Barat";
+    data:city "Bogor";
+    data:category "western";
+    data:special_menu "Steak";
+    data:alamat "Jl. Pajajaran Indah V No.45, RT.01/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143";
+    data:rating "4.5";
+    data:noTelp "(0251) 7568738";
+    .
+
+data:13 rdf:type data:Film;
+    data:id "0013";
+    data:name "Fat Oppa Cimahi";
+    data:province "Jawa Barat";
+    data:city "Cimahi";
+    data:category "buffet";
+    data:special_menu "Korean Food";
+    data:alamat "Jl.Raya Barat No.772, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40526";
+    data:rating "4";
+    data:noTelp "(022) 6657018";
+    .
+
+data:14 rdf:type data:Film;
+    data:id "0014";
+    data:name "Sunda Nikmat Family Resto";
+    data:province "Jawa Barat";
+    data:city "Cimahi";
+    data:category "sundanese";
+    data:special_menu "Pencok Leunca";
+    data:alamat "Jl.Raya Barat No.698, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40524";
+    data:rating "4";
+    data:noTelp "(022) 6649333";
+    .
+
+data:15 rdf:type data:Film;
+    data:id "0015";
+    data:name "Rumah Makan Kiambang Raya";
+    data:province "Jawa Barat";
+    data:city "Cimahi";
+    data:category "padang";
+    data:special_menu "Rendang";
+    data:alamat "Jl. Jend. H. Amir Machmud No.283, RT.01/RW.06, Cigugur Tengah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40522";
+    data:rating "4.5";
+    data:noTelp "(022) 20662138";
+    .
+
+data:16 rdf:type data:Film;
+    data:id "0016";
+    data:name "Rumah Makan Padang "Sinar Tanjung"";
+    data:province "Jawa Barat";
+    data:city "Cimahi";
+    data:category "padang";
+    data:special_menu "Sate Padang";
+    data:alamat "Jl. Baros No.20, Baros, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40521";
+    data:rating "4.5";
+    data:noTelp "0852-6371-9150";
+    .
+
+data:17 rdf:type data:Film;
+    data:id "0017";
+    data:name "Oasis Bistro";
+    data:province "Jawa Barat";
+    data:city "Cirebon";
+    data:category "buffet";
+    data:special_menu "Sop Buntut";
+    data:alamat "Aston Cirebon Hotel, Lobby, Cirebon, Jawa Barat";
+    data:rating "4";
+    data:noTelp "(0231) 8298000";
+    .
+
+data:18 rdf:type data:Film;
+    data:id "0018";
+    data:name "Bumbu Desa";
+    data:province "Jawa Barat";
+    data:city "Cirebon";
+    data:category "sundanese";
+    data:special_menu "Sambal Nanas";
+    data:alamat "Jl. Dr. Cipto Mangunkusumo No. 207, Cirebon, Jawa Barat";
+    data:rating "4";
+    data:noTelp "(0231) 8298001";
+    .
+
+data:19 rdf:type data:Film;
+    data:id "0019";
+    data:name "RM Padang Sederhana";
+    data:province "Jawa Barat";
+    data:city "Cirebon";
+    data:category "padang";
+    data:special_menu "Rendang";
+    data:alamat "Jln. RA. Kartini no 28, 45122, Cirebon";
+    data:rating "4";
+    data:noTelp "(0231) 234111";
+    .
+
+data:20 rdf:type data:Film;
+    data:id "0020";
+    data:name "Shukaku BBQ & Shabu";
+    data:province "Jawa Barat";
+    data:city "Cirebon";
+    data:category "western";
+    data:special_menu "Steak";
+    data:alamat "Jl. Kartini No. 69,45123, Cirebon";
+    data:rating "4.5";
+    data:noTelp "(0231) 8807353";
+    .

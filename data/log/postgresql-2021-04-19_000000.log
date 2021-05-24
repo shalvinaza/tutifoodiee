@@ -1,0 +1,16 @@
+2021-04-19 21:02:13.422 +08 [16600] ERROR:  syntax error at or near "SELET" at character 1
+2021-04-19 21:02:13.422 +08 [16600] STATEMENT:  SELET * FROM users WHERE email = $1
+2021-04-19 21:04:18.596 +08 [8748] ERROR:  syntax error at or near "SELET" at character 1
+2021-04-19 21:04:18.596 +08 [8748] STATEMENT:  SELET * FROM users WHERE email = $1
+2021-04-19 21:15:42.512 +08 [3424] ERROR:  null value in column "first_name" of relation "users" violates not-null constraint
+2021-04-19 21:15:42.512 +08 [3424] DETAIL:  Failing row contains (1, null, testes, {}, testes@gmail.com, null, null, null, null).
+2021-04-19 21:15:42.512 +08 [3424] STATEMENT:  INSERT INTO users (username, email, password) VALUES ($1, $2, $3) RETURNING *
+2021-04-19 21:16:13.920 +08 [19000] ERROR:  duplicate key value violates unique constraint "users_pkey"
+2021-04-19 21:16:13.920 +08 [19000] DETAIL:  Key (id)=(2) already exists.
+2021-04-19 21:16:13.920 +08 [19000] STATEMENT:  INSERT INTO users (username, email, password) VALUES ($1, $2, $3) RETURNING *
+2021-04-19 21:21:20.392 +08 [18880] ERROR:  column "bsdkbakcbjas" does not exist at character 36
+2021-04-19 21:21:20.392 +08 [18880] STATEMENT:  delete from users where username = "bsdkbakcbjas"
+2021-04-19 21:21:41.293 +08 [18880] ERROR:  column "bsdkbakcbjas" does not exist at character 43
+2021-04-19 21:21:41.293 +08 [18880] STATEMENT:  delete from public.users where username = "bsdkbakcbjas"
+2021-04-19 21:21:52.341 +08 [18880] ERROR:  column "bsdkbakcbjas" does not exist at character 43
+2021-04-19 21:21:52.341 +08 [18880] STATEMENT:  delete from public.users where username = bsdkbakcbjas

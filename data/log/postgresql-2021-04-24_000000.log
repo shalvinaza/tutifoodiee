@@ -1,0 +1,88 @@
+2021-04-25 16:47:42.748 +08 [6460] ERROR:  syntax error at or near "count" at character 1
+2021-04-25 16:47:42.748 +08 [6460] STATEMENT:  count(public.users)
+2021-04-25 16:47:58.722 +08 [6460] ERROR:  syntax error at or near "count" at character 1
+2021-04-25 16:47:58.722 +08 [6460] STATEMENT:  count(id)
+2021-04-25 19:47:43.076 +08 [13420] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 19:47:43.076 +08 [13420] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 19:48:15.056 +08 [6424] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 19:48:15.056 +08 [6424] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 19:49:18.963 +08 [15404] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 19:49:18.963 +08 [15404] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 19:52:47.530 +08 [22116] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 19:52:47.530 +08 [22116] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 19:56:37.441 +08 [16792] ERROR:  null value in column "name" of relation "users" violates not-null constraint
+2021-04-25 19:56:37.441 +08 [16792] DETAIL:  Failing row contains (11, null, kuwiww, $2b$10$4foJGdlQ/d/FjCxuqfGV/.P/uD2mFjPOOYIaCNJVz3mPxvdDBP8yy, kuwikucing@gmail.com, null, Kuwi, Catus).
+2021-04-25 19:56:37.441 +08 [16792] STATEMENT:  INSERT INTO users (username, email, first_name, last_name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 19:58:49.002 +08 [10268] ERROR:  syntax error at or near "," at character 19
+2021-04-25 19:58:49.002 +08 [10268] STATEMENT:  INSERT INTO public,users(username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@mail.com", "Boti Catus");
+2021-04-25 19:58:55.737 +08 [10268] ERROR:  column "boti cantik" does not exist at character 67
+2021-04-25 19:58:55.737 +08 [10268] STATEMENT:  INSERT INTO public.users(username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@mail.com", "Boti Catus");
+2021-04-25 19:59:48.959 +08 [10268] ERROR:  column "boti cantik" does not exist at character 67
+2021-04-25 19:59:48.959 +08 [10268] STATEMENT:  INSERT INTO public.users(username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@mail.com", "Boti Catus")
+	RETURNING *;
+2021-04-25 20:00:04.480 +08 [10268] ERROR:  column "cantik" does not exist at character 67
+2021-04-25 20:00:04.480 +08 [10268] STATEMENT:  INSERT INTO public.users(username, password, email, name)
+	VALUES ("cantik", "kuwikulkasmiyu", "botiboti@mail.com", "Boti Catus")
+	RETURNING *;
+2021-04-25 20:00:56.887 +08 [10268] ERROR:  column "boti cantik" does not exist at character 68
+2021-04-25 20:00:56.887 +08 [10268] STATEMENT:  INSERT INTO public.users (username, password, email, name) VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@mail.com", "Boti Catus")
+	RETURNING *;
+2021-04-25 20:02:42.496 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:42.496 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:02:44.305 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:44.305 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:02:45.028 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:45.028 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:02:45.587 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:45.587 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:02:46.151 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:46.151 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:02:46.672 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:46.672 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:02:47.186 +08 [10268] ERROR:  column "boti cantik" does not exist at character 61
+2021-04-25 20:02:47.186 +08 [10268] STATEMENT:  INSERT INTO users (username, password, email, name)
+	VALUES ("boti cantik", "kuwikulkasmiyu", "botiboti@gmail.com", "Boti Catus");
+2021-04-25 20:03:58.957 +08 [1664] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:03:58.957 +08 [1664] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:04:00.642 +08 [11904] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:04:00.642 +08 [11904] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:04:01.513 +08 [21496] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:04:01.513 +08 [21496] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:04:02.252 +08 [11240] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:04:02.252 +08 [11240] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:04:02.970 +08 [11808] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:04:02.970 +08 [11808] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:08:36.169 +08 [19620] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:08:36.169 +08 [19620] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:10:21.624 +08 [16760] ERROR:  INSERT has more expressions than target columns at character 77
+2021-04-25 20:10:21.624 +08 [16760] STATEMENT:  INSERT INTO users (username, email, name, password) VALUES ($1, $2, $3, $4, $5) RETURNING *
+2021-04-25 20:16:31.292 +08 [10268] ERROR:  syntax error at or near "DELETE" at character 40
+2021-04-25 20:16:31.292 +08 [10268] STATEMENT:  DELETE FROM public.users WHERE id = 12
+	DELETE FROM public.users WHERE id = 13
+2021-04-25 20:16:42.938 +08 [10268] ERROR:  syntax error at or near "DELETE" at character 33
+2021-04-25 20:16:42.938 +08 [10268] STATEMENT:  DELETE FROM users WHERE id = 12
+	DELETE FROM users WHERE id = 13
+2021-04-25 20:16:49.695 +08 [10268] ERROR:  syntax error at or near "public" at character 8
+2021-04-25 20:16:49.695 +08 [10268] STATEMENT:  DELETE public.users WHERE id = 12
+	DELETE public.users WHERE id = 13
+2021-04-25 20:17:00.316 +08 [10268] ERROR:  syntax error at or near "users" at character 8
+2021-04-25 20:17:00.316 +08 [10268] STATEMENT:  DELETE users WHERE id = 12
+	DELETE users WHERE id = 13
+2021-04-25 21:51:01.260 +08 [17492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-25 21:51:01.262 +08 [18240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-25 21:51:01.264 +08 [13848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-25 21:51:01.269 +08 [22192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-25 21:51:14.052 +08 [12516] LOG:  received fast shutdown request

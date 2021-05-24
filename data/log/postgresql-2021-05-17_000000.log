@@ -1,0 +1,50 @@
+2021-05-17 17:34:50.152 +08 [18344] ERROR:  column reference "id" is ambiguous at character 105
+2021-05-17 17:34:50.152 +08 [18344] STATEMENT:  SELECT materials.*, courses.name FROM materials JOIN courses ON materials.courses_id = courses.id WHERE id = $1
+2021-05-17 17:35:19.911 +08 [9764] ERROR:  column reference "id" is ambiguous at character 110
+2021-05-17 17:35:19.911 +08 [9764] STATEMENT:  SELECT materials.*,
+		courses.name 
+	
+	FROM materials JOIN courses
+		ON materials.courses_id = courses.id
+	
+	where id = 1
+2021-05-17 17:35:28.443 +08 [9764] ERROR:  column reference "id" is ambiguous at character 110
+2021-05-17 17:35:28.443 +08 [9764] STATEMENT:  SELECT materials.*,
+		courses.name 
+	
+	FROM materials JOIN courses
+		ON materials.courses_id = courses.id
+	
+	where id=1
+2021-05-17 17:36:15.233 +08 [9764] ERROR:  syntax error at or near "'Module'" at character 38
+2021-05-17 17:36:15.233 +08 [9764] STATEMENT:  SELECT materials.*,
+		courses.name AS 'Module'
+	
+	FROM materials JOIN courses
+		ON materials.courses_id = courses.id
+	
+	where materials.id = 1
+2021-05-17 17:36:52.868 +08 [7852] ERROR:  syntax error at or near "'Module'" at character 37
+2021-05-17 17:36:52.868 +08 [7852] STATEMENT:  SELECT materials.*, courses.name AS 'Module' FROM materials JOIN courses ON materials.courses_id = courses.id WHERE materials.id = $1
+2021-05-17 17:37:47.692 +08 [6720] ERROR:  missing FROM-clause entry for table "courses" at character 21
+2021-05-17 17:37:47.692 +08 [6720] STATEMENT:  SELECT materials.*, courses.name AS "Module" FROM materials
+2021-05-17 17:52:26.982 +08 [13240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 17:52:26.986 +08 [12216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 17:52:26.986 +08 [2480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 17:52:26.995 +08 [9764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 17:52:26.995 +08 [14860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 17:52:26.996 +08 [720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 17:52:26.996 +08 [15956] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-05-17 21:04:26.194 +08 [5928] LOG:  received fast shutdown request
+2021-05-17 21:04:26.198 +08 [5928] LOG:  aborting any active transactions
+2021-05-17 21:04:26.207 +08 [6168] ERROR:  canceling statement due to user request
+2021-05-17 21:04:26.216 +08 [5928] LOG:  background worker "logical replication launcher" (PID 6168) exited with exit code 1
+2021-05-17 21:04:26.224 +08 [2892] LOG:  shutting down
+2021-05-17 21:04:26.264 +08 [5928] LOG:  database system is shut down

@@ -1,0 +1,172 @@
+2021-04-18 14:31:26.477 +08 [12516] LOG:  starting PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit
+2021-04-18 14:31:26.479 +08 [12516] LOG:  listening on IPv6 address "::", port 5432
+2021-04-18 14:31:26.481 +08 [12516] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-04-18 14:31:26.537 +08 [11932] LOG:  database system was shut down at 2021-04-18 14:31:16 +08
+2021-04-18 14:31:26.559 +08 [12516] LOG:  database system is ready to accept connections
+2021-04-18 15:05:23.886 +08 [9832] ERROR:  there is no unique constraint matching given keys for referenced table "preferences"
+2021-04-18 15:05:23.886 +08 [9832] STATEMENT:  ALTER TABLE public.users
+	    ADD CONSTRAINT user_preferencefk FOREIGN KEY (preference_id)
+	    REFERENCES public.preferences (id)
+	    ON UPDATE NO ACTION
+	    ON DELETE NO ACTION
+	    NOT VALID;
+	
+2021-04-18 15:05:23.975 +08 [9832] WARNING:  there is no transaction in progress
+2021-04-18 17:42:07.255 +08 [15972] ERROR:  null value in column "id" of relation "courses" violates not-null constraint
+2021-04-18 17:42:07.255 +08 [15972] DETAIL:  Failing row contains (null, null, HTML, null, null, null, null, null, null, null).
+2021-04-18 17:42:07.255 +08 [15972] STATEMENT:  INSERT INTO courses (name) VALUES ($1) RETURNING *
+2021-04-18 17:49:47.255 +08 [9832] ERROR:  type "serial" does not exist
+2021-04-18 17:49:47.255 +08 [9832] STATEMENT:  ALTER TABLE public.enrollments
+	    ALTER COLUMN id TYPE serial;
+2021-04-18 18:55:27.240 +08 [9832] ERROR:  type "datetime" does not exist
+2021-04-18 18:55:27.240 +08 [9832] STATEMENT:  ALTER TABLE public.enrollments
+	    ALTER COLUMN enroll_date TYPE datetime;
+2021-04-18 18:56:19.504 +08 [3856] ERROR:  syntax error at or near "*" at character 8
+2021-04-18 18:56:19.504 +08 [3856] STATEMENT:  delete * from enrollments
+2021-04-18 18:56:40.590 +08 [3856] ERROR:  syntax error at or near "*" at character 8
+2021-04-18 18:56:40.590 +08 [3856] STATEMENT:  delete * from public.enrollments
+2021-04-18 19:01:13.228 +08 [9832] ERROR:  column "enroll_date" of relation "enrollments" contains null values
+2021-04-18 19:01:13.228 +08 [9832] STATEMENT:  ALTER TABLE public.enrollments
+	    ALTER COLUMN enroll_date SET NOT NULL;
+2021-04-18 19:02:14.171 +08 [1472] ERROR:  null value in column "enroll_date" of relation "enrollments" violates not-null constraint
+2021-04-18 19:02:14.171 +08 [1472] DETAIL:  Failing row contains (5, null, null, null, null, null).
+2021-04-18 19:02:14.171 +08 [1472] STATEMENT:  INSERT INTO enrollments (enroll_date) VALUES ($1) RETURNING *
+2021-04-18 19:03:50.851 +08 [15948] ERROR:  null value in column "enroll_date" of relation "enrollments" violates not-null constraint
+2021-04-18 19:03:50.851 +08 [15948] DETAIL:  Failing row contains (6, null, null, null, null, null).
+2021-04-18 19:03:50.851 +08 [15948] STATEMENT:  INSERT INTO enrollments (enroll_date) VALUES ($1) RETURNING *
+2021-04-18 19:04:46.990 +08 [18056] ERROR:  null value in column "enroll_date" of relation "enrollments" violates not-null constraint
+2021-04-18 19:04:46.990 +08 [18056] DETAIL:  Failing row contains (7, null, null, null, null, null).
+2021-04-18 19:04:46.990 +08 [18056] STATEMENT:  INSERT INTO enrollments (enroll_date) VALUES ($1) RETURNING *
+2021-04-18 19:09:25.187 +08 [17784] ERROR:  null value in column "enroll_date" of relation "enrollments" violates not-null constraint
+2021-04-18 19:09:25.187 +08 [17784] DETAIL:  Failing row contains (8, null, null, null, null, null).
+2021-04-18 19:09:25.187 +08 [17784] STATEMENT:  INSERT INTO enrollments (enroll_date) VALUES ($1) RETURNING *
+2021-04-18 19:15:04.859 +08 [9832] ERROR:  constraint "enrollment_coursefk" for relation "enrollments" already exists
+2021-04-18 19:15:04.859 +08 [9832] STATEMENT:  CREATE TABLE public.enrollments
+	(
+	    id integer NOT NULL GENERATED ALWAYS AS IDENTITY,
+	    student_id integer,
+	    course_id integer,
+	    progression_id integer,
+	    enroll_date date,
+	    complete_date date,
+	    PRIMARY KEY (id),
+	    CONSTRAINT enrollment_coursefk FOREIGN KEY (student_id)
+	        REFERENCES public.courses (id) MATCH SIMPLE
+	        ON UPDATE NO ACTION
+	        ON DELETE NO ACTION
+	        NOT VALID,
+	    CONSTRAINT enrollment_coursefk FOREIGN KEY (course_id)
+	        REFERENCES public.courses (id) MATCH SIMPLE
+	        ON UPDATE NO ACTION
+	        ON DELETE NO ACTION
+	        NOT VALID,
+	    CONSTRAINT enrollment_progressionfk FOREIGN KEY (progression_id)
+	        REFERENCES public.progressions (id) MATCH SIMPLE
+	        ON UPDATE NO ACTION
+	        ON DELETE NO ACTION
+	        NOT VALID
+	);
+	
+	
+	ALTER TABLE public.enrollments
+	    OWNER to postgres;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+2021-04-18 19:15:22.210 +08 [9832] ERROR:  constraint "enrollment_course_fk" for relation "enrollments" already exists
+2021-04-18 19:15:22.210 +08 [9832] STATEMENT:  CREATE TABLE public.enrollments
+	(
+	    id integer NOT NULL GENERATED ALWAYS AS IDENTITY,
+	    student_id integer,
+	    course_id integer,
+	    progression_id integer,
+	    enroll_date date,
+	    complete_date date,
+	    PRIMARY KEY (id),
+	    CONSTRAINT enrollment_course_fk FOREIGN KEY (student_id)
+	        REFERENCES public.courses (id) MATCH SIMPLE
+	        ON UPDATE NO ACTION
+	        ON DELETE NO ACTION
+	        NOT VALID,
+	    CONSTRAINT enrollment_course_fk FOREIGN KEY (course_id)
+	        REFERENCES public.courses (id) MATCH SIMPLE
+	        ON UPDATE NO ACTION
+	        ON DELETE NO ACTION
+	        NOT VALID,
+	    CONSTRAINT enrollment_progression_fk FOREIGN KEY (progression_id)
+	        REFERENCES public.progressions (id) MATCH SIMPLE
+	        ON UPDATE NO ACTION
+	        ON DELETE NO ACTION
+	        NOT VALID
+	);
+	
+	
+	ALTER TABLE public.enrollments
+	    OWNER to postgres;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+2021-04-18 19:24:20.905 +08 [11280] ERROR:  syntax error at or near "," at character 27
+2021-04-18 19:24:20.905 +08 [11280] STATEMENT:  INSERT INTO courses (name), courses (description) VALUES ($1) RETURNING *
+2021-04-18 19:31:09.054 +08 [18032] ERROR:  syntax error at or near "and" at character 40
+2021-04-18 19:31:09.054 +08 [18032] STATEMENT:  INSERT INTO courses (name) VALUES ($1) and courses (description) VALUES ($2) RETURNING *
+2021-04-18 19:31:21.893 +08 [13648] ERROR:  syntax error at or near "courses" at character 41
+2021-04-18 19:31:21.893 +08 [13648] STATEMENT:  INSERT INTO courses (name) VALUES ($1), courses (description) VALUES ($2) RETURNING *
+2021-04-18 19:40:51.468 +08 [14000] ERROR:  syntax error at or near "," at character 40
+2021-04-18 19:40:51.468 +08 [14000] STATEMENT:  delete from public.courses where id = 1, 2, 3
+2021-04-18 19:41:02.939 +08 [14000] ERROR:  syntax error at or near "delete" at character 41
+2021-04-18 19:41:02.939 +08 [14000] STATEMENT:  delete from public.courses where id = 1
+	delete from public.courses where id = 2
+	delete from public.courses where id = 3
+2021-04-18 19:41:14.030 +08 [14000] ERROR:  syntax error at or near "delete" at character 41
+2021-04-18 19:41:14.030 +08 [14000] STATEMENT:  delete from public.courses where id = 1
+	delete from public.courses where id = 2
+	delete from public.courses where id = 3
+2021-04-18 19:50:27.445 +08 [16876] ERROR:  syntax error at or near "," at character 36
+2021-04-18 19:50:27.445 +08 [16876] STATEMENT:  SELECT * FROM courses WHERE id = $1, [id]
+2021-04-18 19:59:30.315 +08 [11896] ERROR:  syntax error at or near "WHERE" at character 49
+2021-04-18 19:59:30.315 +08 [11896] STATEMENT:  UPDATE courses SET name = $1, description = $2, WHERE id = $3
+2021-04-18 19:59:51.088 +08 [8648] ERROR:  syntax error at or near "WHERE" at character 49
+2021-04-18 19:59:51.088 +08 [8648] STATEMENT:  UPDATE courses SET name = $1, description = $2, WHERE id = $3
+2021-04-18 22:06:51.984 +08 [12308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:22:21.920 +08 [17352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:24:11.649 +08 [12252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:26:10.315 +08 [10568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:26:47.648 +08 [8092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:27:07.674 +08 [13500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:02.818 +08 [10348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.015 +08 [9832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.016 +08 [13300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.018 +08 [11156] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.021 +08 [5100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.022 +08 [468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.026 +08 [18300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.027 +08 [18008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-18 23:28:56.028 +08 [15404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

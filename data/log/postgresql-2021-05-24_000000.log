@@ -1,0 +1,6 @@
+2021-05-24 16:13:46.450 +08 [5216] LOG:  received fast shutdown request
+2021-05-24 16:13:46.456 +08 [5216] LOG:  aborting any active transactions
+2021-05-24 16:13:46.462 +08 [6824] ERROR:  canceling statement due to user request
+2021-05-24 16:13:46.470 +08 [5216] LOG:  background worker "logical replication launcher" (PID 6824) exited with exit code 1
+2021-05-24 16:13:46.477 +08 [6768] LOG:  shutting down
+2021-05-24 16:13:46.521 +08 [5216] LOG:  database system is shut down

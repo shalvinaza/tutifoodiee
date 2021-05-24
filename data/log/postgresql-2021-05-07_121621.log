@@ -1,0 +1,11 @@
+2021-05-07 12:16:21.626 +08 [6088] LOG:  starting PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit
+2021-05-07 12:16:21.644 +08 [6088] LOG:  listening on IPv6 address "::", port 5432
+2021-05-07 12:16:21.645 +08 [6088] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-05-07 12:16:21.704 +08 [6640] LOG:  database system was shut down at 2021-05-07 12:15:55 +08
+2021-05-07 12:16:21.745 +08 [6088] LOG:  database system is ready to accept connections
+2021-05-07 12:19:48.303 +08 [6088] LOG:  received fast shutdown request
+2021-05-07 12:19:48.307 +08 [6088] LOG:  aborting any active transactions
+2021-05-07 12:19:48.313 +08 [6800] ERROR:  canceling statement due to user request
+2021-05-07 12:19:48.318 +08 [6088] LOG:  background worker "logical replication launcher" (PID 6800) exited with exit code 1
+2021-05-07 12:19:48.325 +08 [6748] LOG:  shutting down
+2021-05-07 12:19:48.412 +08 [6088] LOG:  database system is shut down
