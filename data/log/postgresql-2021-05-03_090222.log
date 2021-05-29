@@ -1,5 +1,0 @@
-2021-05-03 09:02:22.812 +08 [6832] LOG:  starting PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit
-2021-05-03 09:02:22.814 +08 [6832] LOG:  listening on IPv6 address "::", port 5432
-2021-05-03 09:02:22.815 +08 [6832] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2021-05-03 09:02:23.172 +08 [7692] LOG:  database system was shut down at 2021-05-02 23:58:32 +08
-2021-05-03 09:02:23.301 +08 [6832] LOG:  database system is ready to accept connections

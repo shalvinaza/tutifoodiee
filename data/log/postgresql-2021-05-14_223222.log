@@ -1,7 +1,0 @@
-2021-05-14 22:32:22.550 +08 [5156] LOG:  starting PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit
-2021-05-14 22:32:22.553 +08 [5156] LOG:  listening on IPv6 address "::", port 5432
-2021-05-14 22:32:22.554 +08 [5156] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2021-05-14 22:32:22.572 +08 [5156] LOG:  received fast shutdown request
-2021-05-14 22:32:22.603 +08 [5544] LOG:  database system was shut down at 2021-05-14 22:31:59 +08
-2021-05-14 22:32:22.658 +08 [5880] LOG:  shutting down
-2021-05-14 22:32:22.699 +08 [5156] LOG:  database system is shut down

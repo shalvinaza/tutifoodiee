@@ -6,10 +6,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "easyrdf/easyrdf": "^1.1",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.12",
+        "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5"
     },
     "require-dev": {
@@ -52,10 +53,7 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true,
-        "platform": {
-            "php": "7.4.19"
-        }
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true

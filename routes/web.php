@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\DataController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('landing_page','TutiController@landingpage');
-Route::get('restaurants','TutiController@restaurants');
-Route::get('restaurant_detail','TutiController@restaurantDetail');
+// Route::get('/',[MainController::class,'index']);
+// Route::post('/search',[MainController::class,'search']);
+
+// Route::get('/category/{genre}',[MainController::class,'category']);
+// Route::get('/movies/{id}',[MainController::class,'getSingleMovie']);
+
+Route::get('/',[MainController::class,'index']);
+Route::get('/city/{city}',[MainController::class,'cities']);
+Route::get('/restaurant/{id}',[MainController::class,'getRestaurantById']);
+Route::post('/search',[MainController::class,'search']);
+// Route::get('/category/{category}',[MainController::class,'category'])->name('category');
+Route::get('category/{category}',[MainController::class,'categories']);
+Route::get('special-menu/{specialMenu}',[MainController::class,'specialMenus']);
