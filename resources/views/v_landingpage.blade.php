@@ -29,6 +29,7 @@
         </div>
 
         <h1 class="txt-ask">Where are you located?</h1>
+
         <p class="txt-provinsi">Jawa Barat</p>
         <div class="row" style="padding-left:50px">
             <button class="col-md-2 btn-kota">
@@ -51,19 +52,21 @@
         
         <p class="txt-provinsi">Jakarta</p>
         <div class="row" style="padding-left:50px">
-            <button class="col-md-2 btn-kota">Jakarta Barat</button>
-            <button class="col-md-2 btn-kota">Jakarta Pusat</button>
-            <button class="col-md-2 btn-kota">Jakarta Selatan</button>
-            <button class="col-md-2 btn-kota">Jakarta Timur</button>
-            <button class="col-md-2 btn-kota">Jakarta Selatan</button>
-        </div>
-
-        <p class="txt-provinsi">Banten</p>
-        <div class="row" style="padding-left:50px">
-            <button class="col-md-2 btn-kota">Cilegon</button>
-            <button class="col-md-2 btn-kota">Serang</button>
-            <button class="col-md-2 btn-kota">Tangerang Selatan</button>
-            <button class="col-md-2 btn-kota">Tangerang</button>
+            <button class="col-md-2 btn-kota">
+                <a href="/city/Jakarta Barat"><span>Jakarta Barat</span></a>
+            </button>
+            <button class="col-md-2 btn-kota">
+                <a href="/city/Jakarta Pusat"><span>Jakarta Pusat</span></a>
+            </button>
+            <button class="col-md-2 btn-kota">
+                <a href="/city/Jakarta Selatan"><span>Jakarta Selatan</span></a>
+            </button>
+            <button class="col-md-2 btn-kota">
+                <a href="/city/Jakarta Timur"><span>Jakarta Timur</span></a>
+            </button>
+            <button class="col-md-2 btn-kota">
+                <a href="/city/Jakarta Utara"><span>Jakarta Utara</span></a>
+            </button>
         </div>
     </div>
 </div>

@@ -10,7 +10,7 @@
             <div class="row">
                 @foreach($search as $searchresult)
                 @if($searchresult->numRows() > 0)
-                <div class="row row-tes">
+                <div class="row" style="width:100%">
                 <h1 class="txt-ask">Search "{{$varsearch}}" by {{array_keys($search)[$i]}}</h1>
                 </div>
                 <div class="row row-tes">

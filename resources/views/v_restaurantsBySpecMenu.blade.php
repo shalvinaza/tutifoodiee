@@ -7,7 +7,7 @@
         <div class="container">
             <h1 class="txt-ask">"{{$specialMenu}}" Restaurants</h1>
             
-            <div class="row">
+            <div class="row row-tes">
                 @foreach($specialMenus as $specialMenu)
                 <div class="col-md-3">
                     <div class="card">

@@ -140,3 +140,142 @@ data:31 rdf:type data:Restaurant;
     data:image "https://media.suara.com/pictures/653x366/2018/01/19/81802-restoran-seeng-nini.jpg";
     data:lowestPrice "2.500";
     data:highestPrice "150.000".
+
+data:32 rdf:type data:Restaurant;
+    data:id "0032";
+    data:name "Andakar Steak";
+    data:province "Jakarta";
+    data:city "Jakarta Selatan";
+    data:category "sundanese";
+    data:specialMenu "Steak";
+    data:address "Jln. Warung Buncit Raya no. 1 12790";
+    data:rating "4";
+    data:phone "(021) 7901360";
+    data:image "http://playfoursquare.s3.amazonaws.com/pix/3934465_4lU7U-rXtS29QfEO0vaOWLEY3_37X3BnFh3CzV_YXF4.jpg";
+    data:lowestPrice "30.000";
+    data:highestPrice "150.000".
+
+data:33 rdf:type data:Restaurant;
+    data:id "0033";
+    data:name "Pagi Sore";
+    data:province "Jakarta";
+    data:city "Jakarta Selatan";
+    data:category "padang";
+    data:specialMenu "sate padang";
+    data:address "Jalan Benda Bawah No. 75";
+    data:rating "4.4";
+    data:phone "(021) 7901361";
+    data:image "http://playfoursquare.s3.amazonaws.com/pix/83336698_i9XnHVckyiFIDGPysUf5r53VFJVFCtom_-QUysr86cU.jpg";
+    data:lowestPrice "25.000";
+    data:highestPrice "100.000".
+
+data:34 rdf:type data:Restaurant;
+    data:id "0034";
+    data:name "Rumah Makan Sunda Laksana";
+    data:province "Jakarta";
+    data:city "Jakarta Timur";
+    data:category "sundanese";
+    data:specialMenu "Ayam Bumbu Hejo";
+    data:address "Jln. Taman Gading Selatan ";
+    data:rating "4";
+    data:phone "085691085902";
+    data:image "http://playfoursquare.s3.amazonaws.com/pix/12838319_mq_rPSCVDIxRjbnvfZJl9r0tcnOdXYy4eLDZSDcu2to.jpg";
+    data:lowestPrice "40.000";
+    data:highestPrice "100.000".
+
+data:35 rdf:type data:Restaurant;
+    data:id "0035";
+    data:name "Coca Suki Restaurant";
+    data:province "Jakarta";
+    data:city "Jakarta Timur";
+    data:category "buffet";
+    data:specialMenu "suki";
+    data:address "Jln. Pangeran Antasari, Lippo Mall Kemang Village Upper Ground Floor, Mampang Prapatan";
+    data:rating "4.5";
+    data:phone "085691085903";
+    data:image "https://media-cdn.tripadvisor.com/media/photo-s/15/37/07/d9/photo0jpg.jpg";
+    data:lowestPrice "100.000";
+    data:highestPrice "150.000".
+
+data:36 rdf:type data:Restaurant;
+    data:id "0036";
+    data:name "Rumah Makan Padang 67";
+    data:province "Jakarta";
+    data:city "Jakarta Timur";
+    data:category "padang";
+    data:specialMenu "rendang";
+    data:address "Jalan Squadron Halim Perdana Kusuma Jakarta Timur";
+    data:rating "4";
+    data:phone "085691085904";
+    data:image "http://playfoursquare.s3.amazonaws.com/pix/9271722_Y10vLehoiGVrXnUsrYPFyzx_LKXxMih0lNChs3HU0Us.jpg";
+    data:lowestPrice "15.000";
+    data:highestPrice "30.000".
+
+data:37 rdf:type data:Restaurant;
+    data:id "0037";
+    data:name "Feskul Jatiwaringin";
+    data:province "Jakarta";
+    data:city "Jakarta Timur";
+    data:category "western";
+    data:specialMenu "Steak";
+    data:address "Jatiwaringin Bekasi West Java";
+    data:rating "4.3";
+    data:phone "085691085905";
+    data:image "http://playfoursquare.s3.amazonaws.com/pix/1238448__HFu_Gad3i7_4K20M816X6Ubb0Nyu-CUEcMjDcGs64A.jpg";
+    data:lowestPrice "50.000";
+    data:highestPrice "250.000".
+
+data:38 rdf:type data:Restaurant;
+    data:id "0038";
+    data:name "Restoran Waroeng Sunda";
+    data:province "Jakarta";
+    data:city "Jakarta Utara";
+    data:category "sundanese";
+    data:specialMenu "Nasi Tutug Oncom";
+    data:address "Jl. Panjang no. 57, Kebon Jeruk Jakarta";
+    data:rating "4";
+    data:phone "(021)56985777";
+    data:image "http://playfoursquare.s3.amazonaws.com/pix/8349509_h4zBvg0yYxsU8Z1U64fDEcbB82UkXfKmjGW1KsjaD4Y.jpg";
+    data:lowestPrice "30.000";
+    data:highestPrice "130.000".
+
+data:39 rdf:type data:Restaurant;
+    data:id "0039";
+    data:name "Jin Mu Dumpling Restaurant";
+    data:province "Jakarta";
+    data:city "Jakarta Utara";
+    data:category "buffet";
+    data:specialMenu "dumpling";
+    data:address "Jln. Pantai Indah, Bukit Golf Mediterania Ruko Exclusive, Penjaringan";
+    data:rating "4.5";
+    data:phone "(021)56985778";
+    data:image "http://media-cdn.tripadvisor.com/media/photo-s/18/34/be/1b/caption.jpg";
+    data:lowestPrice "50.000";
+    data:highestPrice "150.000".
+
+data:40 rdf:type data:Restaurant;
+    data:id "0040";
+    data:name "Medan Deli";
+    data:province "Jakarta";
+    data:city "Jakarta Utara";
+    data:category "buffet";
+    data:specialMenu "Steak";
+    data:address "Jln. Angkasa 104B, Jakarta Pusat 10610 Jakarta";
+    data:rating "4.3";
+    data:phone "(021)56985779";
+    data:image "https://media-cdn.tripadvisor.com/media/photo-s/0d/39/ac/27/20161007-132813-largejpg.jpg";
+    data:lowestPrice "50.000";
+    data:highestPrice "100.000".
+
+data:41 rdf:type data:Restaurant;
+    data:id "0041";
+    data:name "Lilikoi Kitchen";
+    data:province "Jakarta";
+    data:city "Jakarta Utara";
+    data:category "buffet";
+    data:specialMenu "dumpling";
+    data:address "Jl. Danau Sunter Utara Blok M No. 14 14350 Jakarta ";
+    data:rating "4.5";
+    data:phone "(021)56985780";
+    data:image "https://www.bing.com/th?id=A7QhKV%2bFECB7Pyw480x360";
+    data:lowestPrice "60.000";

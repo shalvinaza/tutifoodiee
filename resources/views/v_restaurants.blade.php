@@ -6,7 +6,7 @@
     <div class="page-wrapper">
         <div class="container">
             <h1 class="txt-ask">Restaurants in {{$city}}</h1>
-            <div class="row">
+            <div class="row row-tes">
                 @foreach($cities as $city)
                 <div class="col-md-3">
                     <div class="card">

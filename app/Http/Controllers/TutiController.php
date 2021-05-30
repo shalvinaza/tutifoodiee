@@ -18,6 +18,7 @@ class TutiController extends Controller
 
         $uniques = $dataAll->unique('specialMenu');
         $uniques->values()->all();
+
         return view('v_landingpage',compact('unique','uniques'));
     }
 
