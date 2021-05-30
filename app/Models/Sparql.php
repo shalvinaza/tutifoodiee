@@ -18,7 +18,7 @@ class Sparql extends Model
 
     function getRestaurants($type = 'all', $search = '')
     {
-        $sparql = new \EasyRdf\Sparql\Client('http://localhost:3030/ds_tutifoodie/query');
+        $sparql = new \EasyRdf\Sparql\Client('http://77362fdcef5f.ngrok.io/ds_tutifoodie/query');
 
         $id = '';
         $name = '';
