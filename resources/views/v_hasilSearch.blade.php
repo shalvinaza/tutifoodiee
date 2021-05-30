@@ -1,5 +1,7 @@
 @extends('master')
 
+@section('title','Search')
+
 @section('isi_page')
     <div class="page-wrapper">
         <div class="container">
@@ -21,7 +23,7 @@
                             </a>
                         </div>
                         <div class="container cont-card">
-                            <div class="row">
+                            <div class="row" style="margin:0">
                                 <label class="card-label">Name</label>
                                 <p class="p-card">{{$data->name}}</p>
 
@@ -44,7 +46,7 @@
                 @endforeach
             </div>
             @if($countNull >= 5)
-                <h3>Tidak ada data yang cocok dengan input pencarian</h3>
+                <h5 class="no-file">Tidak ada data yang cocok dengan input pencarian</h5>
             @endif
         </div>
     </div>

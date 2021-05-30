@@ -11,8 +11,6 @@ require_once realpath(__DIR__ . '/..') . "../Http/html_tag_helpers.php";
 
 \EasyRdf\RdfNamespace::set('data', 'http://example.com/');
 \EasyRdf\RdfNamespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#/');
-// \EasyRdf\RdfNamespace::set('dbo', 'http://dbpedia.org/ontology/');
-// \EasyRdf\RdfNamespace::set('dc', 'http://purl.org/dc/elements/1.1/');
 
 class Sparql extends Model
 {

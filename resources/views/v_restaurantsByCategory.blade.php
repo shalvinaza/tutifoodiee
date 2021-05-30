@@ -1,5 +1,7 @@
 @extends('master')
 
+@section('title','Filter By Category')
+
 @section('isi_page')
     <div class="page-wrapper">
         <div class="container">
@@ -15,7 +17,7 @@
                             </a>
                         </div>
                         <div class="container cont-card">
-                            <div class="row">
+                            <div class="row" style="margin:0">
                                 <label class="card-label">Name</label>
                                 <p class="p-card">{{$category->name}}</p>
 

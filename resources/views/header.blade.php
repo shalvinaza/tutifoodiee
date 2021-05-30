@@ -7,12 +7,14 @@
                 </a>
                 <p class="tagline">Find the best restaurant for you!</p>
             </div>
-            <div class="col-md-7 search">
-                    <form method="POST" action="/search">
-                        @csrf
-                        <a href=""><i class="fa fa-search btn-search"></i></a>
+            <div class="col-md-7">
+                <form method="POST" action="/search">
+                    @csrf
+                    <div class="row row-search">
+                        <button class="btn"><i class="fa fa-search btn-search"></i></button>
                         <input type="text" name="search" class="search-box" placeholder="City or restaurant name">
-                    </form>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

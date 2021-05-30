@@ -1,5 +1,7 @@
 @extends('master')
 
+@section('title','Restarant Detail')
+
 @section('isi_page')
 <div class="page-wrapper">
     @foreach($ids as $restaurant)
@@ -13,15 +15,15 @@
             <div class="col-md-8">
                 <div class="row" style="margin:10px 0 10px 0">
                     <div class="col-md-6">
-                        <div class="stars">
+                        <!-- <div class="stars">
                                 <label class="star star-5"></label>
                                 <label class="star star-4"></label>
                                 <label class="star star-3"></label>
                                 <label class="star star-2"></label>
                                 <label class="star star-1 checked"></label>
-                            </div>
+                            </div> -->
+                            <h4>Rating: {{$restaurant->rating}}/5</h4>
                     </div>
-                    <!-- <h3>Rating: {{$restaurant->rating}}/5</h3> -->
 
                     <div class="col-md-6">
                     <div class="row" style="background-color: #C4C4C4; justify-content:center">

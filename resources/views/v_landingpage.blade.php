@@ -1,20 +1,22 @@
 @extends('master')
 
+@section('title','Home')
+
 @section('isi_page')
 <div class="page-wrapper">
     <div class="container">
         <div class="jumbotron jumb-filter">
-            <div class="row">
+            <div class="row" style="width:100%">
                 <div class="col-50">
-                <label>Search by Category<label>
+                <label>Search by Category<label><br>
                 <select class ="filter-box" name=category onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
                     @foreach($unique as $data)
                         <option value="http://localhost:8000/category/{{$data->category}}">{{$data->category}}</option>
                     @endforeach
                 </select>
                 </div>
-                <div class="col-50" style="margin-left:130px">
-                <label>Search by Special Menu<label>
+                <div class="col-50">
+                <label>Search by Special Menu<label><br>
                 <select class ="filter-box" name=category onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
                     @foreach($uniques as $data)
                         <option value="http://localhost:8000/special-menu/{{$data->specialMenu}}">{{$data->specialMenu}}</option>

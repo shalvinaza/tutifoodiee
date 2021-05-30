@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\DataController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MainController;
+use App\Http\Controllers\TutiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,16 +15,10 @@ use App\Http\Controllers\MainController;
 |
 */
 
-// Route::get('/',[MainController::class,'index']);
-// Route::post('/search',[MainController::class,'search']);
-
-// Route::get('/category/{genre}',[MainController::class,'category']);
-// Route::get('/movies/{id}',[MainController::class,'getSingleMovie']);
-
-Route::get('/',[MainController::class,'index']);
-Route::get('/city/{city}',[MainController::class,'cities']);
-Route::get('/restaurant/{id}',[MainController::class,'getRestaurantById']);
-Route::post('/search',[MainController::class,'search']);
-// Route::get('/category/{category}',[MainController::class,'category'])->name('category');
-Route::get('category/{category}',[MainController::class,'categories']);
-Route::get('special-menu/{specialMenu}',[MainController::class,'specialMenus']);
+Route::get('/',[TutiController::class,'index']);
+Route::get('/city/{city}',[TutiController::class,'cities']);
+Route::get('/restaurant/{id}',[TutiController::class,'getRestaurantById']);
+Route::post('/search',[TutiController::class,'search']);
+// Route::get('/category/{category}',[TutiController::class,'category'])->name('category');
+Route::get('category/{category}',[TutiController::class,'categories']);
+Route::get('special-menu/{specialMenu}',[TutiController::class,'specialMenus']);
