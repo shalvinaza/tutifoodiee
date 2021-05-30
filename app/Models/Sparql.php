@@ -66,7 +66,6 @@ class Sparql extends Model
         $result = $sparql->query(
             "PREFIX data: <http://example.com/>
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
             SELECT ?id ?name ?province ?city ?category ?specialMenu ?address ?rating ?phone ?image ?lowestPrice ?highestPrice
                 WHERE{
                     ?sub rdf:type data:Restaurant

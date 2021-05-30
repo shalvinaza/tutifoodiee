@@ -10,6 +10,7 @@
                 <div class="col-50">
                 <label>Search by Category<label><br>
                 <select class ="filter-box" name=category onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="">Select...</option>
                     @foreach($unique as $data)
                         <option value="http://localhost:8000/category/{{$data->category}}">{{$data->category}}</option>
                     @endforeach
@@ -18,6 +19,7 @@
                 <div class="col-50">
                 <label>Search by Special Menu<label><br>
                 <select class ="filter-box" name=category onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="">Select...</option>
                     @foreach($uniques as $data)
                         <option value="http://localhost:8000/special-menu/{{$data->specialMenu}}">{{$data->specialMenu}}</option>
                     @endforeach

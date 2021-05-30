@@ -1,0 +1,142 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:22 rdf:type data:Restaurant;
+    data:id "0022";
+    data:name "Kintan Buffet";
+    data:province "Jakarta";
+    data:city "Jakarta Barat";
+    data:category "buffet";
+    data:specialMenu "Meat";
+    data:address "Jl. Puri Agung, RT.1/RW.2, South Kembangan, Kembangan, West Jakarta City, Jakarta 11610";
+    data:rating "4.6";
+    data:phone "(021) 5822459";
+    data:image "https://jejakpiknik.com/wp-content/uploads/2020/05/1@kintanbuffet-1-630x380-1.jpg";
+    data:lowestPrice "98.000";
+    data:highestPrice "268.000".
+
+data:23 rdf:type data:Restaurant;
+    data:id "0023";
+    data:name "Riung Sunda";
+    data:province "Jakarta";
+    data:city "Jakarta Barat";
+    data:category "sundanese";
+    data:specialMenu "Ayam Penyet";
+    data:address "Jl. Letjen S. Parman No.28, RT.12/RW.6, Tj. Duren Sel., Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470";
+    data:rating "3.4";
+    data:phone "(021) 56985394";
+    data:image "https://img.indoclubbing.com/files/Contents/1144/040350732090390147383170836730.jpg";
+    data:lowestPrice "15.000";
+    data:highestPrice "27.500".
+
+data:24 rdf:type data:Restaurant;
+    data:id "0024";
+    data:name "Nanny's Pavillon";
+    data:province "Jakarta";
+    data:city "Jakarta Barat";
+    data:category "western";
+    data:specialMenu "Waffle";
+    data:address "Central Park Ground Floor, Jl. Letjen S. Parman No.28, RT.12/RW.6, Tj. Duren Sel., Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470";
+    data:rating "4.5";
+    data:phone "(021) 29200395";
+    data:image "https://anakjajan.files.wordpress.com/2013/08/img_9639.jpg";
+    data:lowestPrice "20.000";
+    data:highestPrice "100.000".
+
+data:25 rdf:type data:Restaurant;
+    data:id "0025";
+    data:name "B'Steak Grill & Pancake Greenville";
+    data:province "Jakarta";
+    data:city "Jakarta Barat";
+    data:category "western";
+    data:specialMenu "Steak";
+    data:address "Greenville Blok AS No 32, RT.9/RW.14, Duri Kepa, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11510";
+    data:rating "4.6";
+    data:phone "(021) 5603968";
+    data:image "https://anakjajan.files.wordpress.com/2015/05/dscf2590.jpg?w=768&h=512";
+    data:lowestPrice "19.500";
+    data:highestPrice "58.500".
+
+data:26 rdf:type data:Restaurant;
+    data:id "0026";
+    data:name "SATOO";
+    data:province "Jakarta";
+    data:city "Jakarta Pusat";
+    data:category "buffet";
+    data:specialMenu "Lamb";
+    data:address "Shangri-La Jakarta, Jl. Jend. Sudirman No.Kav. 1, RT.10/RW.9, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220";
+    data:rating "4.6";
+    data:phone "(021) 29229999";
+    data:image "http://jakarta-tourism.go.id/visit/uploads/default/files/Satoo.jpg";
+    data:lowestPrice "25.000";
+    data:highestPrice "236.000".
+
+data:27 rdf:type data:Restaurant;
+    data:id "0027";
+    data:name "Cazasuki Restaurant";
+    data:province "Jakarta";
+    data:city "Jakarta Pusat";
+    data:category "buffet";
+    data:specialMenu "Thai Food";
+    data:address "Jl. KH. Wahid Hasyim No.85, RT.1/RW.4, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350";
+    data:rating "4.4";
+    data:phone "(021) 3101088";
+    data:image "https://ik.imagekit.io/tvlk/cul-asset/guys1L+Yyer9kzI3sp-pb0CG1j2bhflZGFUZOoIf1YOBAm37kEUOKR41ieUZm7ZJ/tvlk-prod-cul-assets/culinary/asset/REST_IG%20-1079x720-FIT_AND_TRIM-576cd7ce1ef843b6306f28cb5e8a001f.jpeg?tr=q-40,c-at_max,w-1080,h-1920&amp;_src=imagekit";
+    data:lowestPrice "18.500";
+    data:highestPrice "70.000".
+
+data:28 rdf:type data:Restaurant;
+    data:id "0028";
+    data:name "Rumah Makan SURYA Masakan Padang";
+    data:province "Jakarta";
+    data:city "Jakarta Pusat";
+    data:category "padang";
+    data:specialMenu "Otak-otak";
+    data:address "Jl. Bendungan Hilir No.5, RT.10/RW.6, Bend. Hilir, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270";
+    data:rating "4.5";
+    data:phone "0813-1003-2485";
+    data:image "https://asset.kompas.com/crops/v7ej7n6g7v1FEzgWns7faU7UXoI=/0x0:780x390/780x390/data/photo/2016/06/05/0826527IMG-6117780x390.jpg";
+    data:lowestPrice "3.000";
+    data:highestPrice "54.000".
+
+data:29 rdf:type data:Restaurant;
+    data:id "0029";
+    data:name "Street Steak Kelapa Gading";
+    data:province "Jakarta";
+    data:city "Jakarta Pusat";
+    data:category "western";
+    data:specialMenu "Steak";
+    data:address "Jl. Raya Boulevard Blok FV 1 No. 15, RT.10/RW.12, East Kelapa Gading, Kelapa Gading, North Jakarta City, Jakarta 14240";
+    data:rating "4.5";
+    data:phone "(021) 4508517";
+    data:image "https://assets-pergikuliner.com/N2pg7a9G4Ee2_bf_Cf68xme-qDo=/385x290/smart/https://assets-pergikuliner.com/uploads/image/picture/1159789/picture-1542856837.jpg";
+    data:lowestPrice "16.000";
+    data:highestPrice "225.000".
+
+data:30 rdf:type data:Restaurant;
+    data:id "0030";
+    data:name "Mokaya Resto - All You Can Eat";
+    data:province "Jakarta";
+    data:city "Jakarta Selatan";
+    data:category "buffet";
+    data:specialMenu "Meat";
+    data:address "RT.2/RW.1, West Rawa, Kebayoran Baru, South Jakarta City, Jakarta 12180";
+    data:rating "4.3";
+    data:phone "0811-1029-114";
+    data:image "https://b.zmtcdn.com/data/menus/160/18747160/0f765e309607a97c00258de40d4b9bc6.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A";
+    data:lowestPrice "99.000";
+    data:highestPrice "115.000".
+
+data:31 rdf:type data:Restaurant;
+    data:id "0031";
+    data:name "Seeng Nini Resto Khas Sunda";
+    data:province "Jakarta";
+    data:city "Jakarta Selatan";
+    data:category "sundanese";
+    data:specialMenu "Dorokdok";
+    data:address "Jl. Tebet Timur Dalam Raya No.61, RT.11/RW.7, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820";
+    data:rating "4.3";
+    data:phone "(021) 22008168";
+    data:image "https://media.suara.com/pictures/653x366/2018/01/19/81802-restoran-seeng-nini.jpg";
+    data:lowestPrice "2.500";
+    data:highestPrice "150.000".
