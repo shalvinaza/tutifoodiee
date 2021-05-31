@@ -53,19 +53,19 @@
         <p class="txt-provinsi">Jakarta</p>
         <div class="row" style="padding-left:50px">
             <button class="col-md-2 btn-kota">
-                <a href="/city/Jakarta Barat"><span>Jakarta Barat</span></a>
+                <a href="/city/Jakarta%20Barat"><span>Jakarta Barat</span></a>
             </button>
             <button class="col-md-2 btn-kota">
-                <a href="/city/Jakarta Pusat"><span>Jakarta Pusat</span></a>
+                <a href="/city/Jakarta%20Pusat"><span>Jakarta Pusat</span></a>
             </button>
             <button class="col-md-2 btn-kota">
-                <a href="/city/Jakarta Selatan"><span>Jakarta Selatan</span></a>
+                <a href="/city/Jakarta%20Selatan"><span>Jakarta Selatan</span></a>
             </button>
             <button class="col-md-2 btn-kota">
-                <a href="/city/Jakarta Timur"><span>Jakarta Timur</span></a>
+                <a href="/city/Jakarta%20Timur"><span>Jakarta Timur</span></a>
             </button>
             <button class="col-md-2 btn-kota">
-                <a href="/city/Jakarta Utara"><span>Jakarta Utara</span></a>
+                <a href="/city/Jakarta%20Utara"><span>Jakarta Utara</span></a>
             </button>
         </div>
     </div>
