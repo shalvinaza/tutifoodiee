@@ -59,20 +59,4 @@ class TutiController extends Controller
         $search = $data->search($varsearch);
         return view('v_hasilSearch',compact('search','varsearch'));
     }
-
-    // public function category($category){
-    //     $data = new DataController();
-
-    //     $category = $data->getByCategory($category);
-    //     return view('v_filterCategory',compact('category','category'));
-    // }
-
-    public function getSingleMovie($id){
-        $data = new DataController();
-
-        $movie = $data->getMovie($id);
-        $new_link = 'https://youtube.com/embed'.parse_url($movie[0]->youtubeLink, PHP_URL_PATH);
-
-        return view('player',compact('movie','new_link'));
-    }
 }
