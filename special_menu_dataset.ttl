@@ -1,0 +1,86 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:SpecialMenu;
+    data:special_menu_id "S001";
+    data:special_menu "Ayam Bumbu Hejo".
+
+data:2 rdf:type data:SpecialMenu;
+    data:special_menu_id "S002";
+    data:special_menu "Nasi Tutug Oncom".
+
+data:3 rdf:type data:SpecialMenu;
+    data:special_menu_id "S003";
+    data:special_menu "Rendang".
+
+data:4 rdf:type data:SpecialMenu;
+    data:special_menu_id "S004";
+    data:special_menu "Steak".
+
+data:5 rdf:type data:SpecialMenu;
+    data:special_menu_id "S005";
+    data:special_menu "Suki".
+
+data:6 rdf:type data:SpecialMenu;
+    data:special_menu_id "S006";
+    data:special_menu "Kikil".
+
+data:7 rdf:type data:SpecialMenu;
+    data:special_menu_id "S007";
+    data:special_menu "Dessert".
+
+data:8 rdf:type data:SpecialMenu;
+    data:special_menu_id "S008";
+    data:special_menu "Seafood".
+
+data:9 rdf:type data:SpecialMenu;
+    data:special_menu_id "S009";
+    data:special_menu "Sate Padang".
+
+data:10 rdf:type data:SpecialMenu;
+    data:special_menu_id "S010";
+    data:special_menu "Korean Food".
+
+data:11 rdf:type data:SpecialMenu;
+    data:special_menu_id "S011";
+    data:special_menu "Pencok Leunca".
+
+data:12 rdf:type data:SpecialMenu;
+    data:special_menu_id "S012";
+    data:special_menu "Sop Buntut".
+
+data:13 rdf:type data:SpecialMenu;
+    data:special_menu_id "S013";
+    data:special_menu "Sambal nanas".
+
+data:14 rdf:type data:SpecialMenu;
+    data:special_menu_id "S014";
+    data:special_menu "Meat".
+
+data:15 rdf:type data:SpecialMenu;
+    data:special_menu_id "S015";
+    data:special_menu "Ayam Penyet".
+
+data:16 rdf:type data:SpecialMenu;
+    data:special_menu_id "S016";
+    data:special_menu "Waffle".
+
+data:17 rdf:type data:SpecialMenu;
+    data:special_menu_id "S017";
+    data:special_menu "Lamb".
+
+data:18 rdf:type data:SpecialMenu;
+    data:special_menu_id "S018";
+    data:special_menu "Thai Food".
+
+data:19 rdf:type data:SpecialMenu;
+    data:special_menu_id "S019";
+    data:special_menu "Otak-otak".
+
+data:20 rdf:type data:SpecialMenu;
+    data:special_menu_id "S020";
+    data:special_menu "Dorokdok".
+
+data:21 rdf:type data:SpecialMenu;
+    data:special_menu_id "S021";
+    data:special_menu "dumpling".

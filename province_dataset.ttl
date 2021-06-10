@@ -1,0 +1,10 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:Province;
+    data:province_id "P001";
+    data:province "Jawa Barat".
+
+data:2 rdf:type data:Province;
+    data:province_id "P002";
+    data:province "Jakarta".

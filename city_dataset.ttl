@@ -1,0 +1,52 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:City;
+    data:city_id "K001";
+    data:province_id "P001";
+    data:city "Bandung".
+
+data:2 rdf:type data:City;
+    data:city_id "K002";
+    data:province_id "P001";
+    data:city "Bekasi".
+
+data:3 rdf:type data:City;
+    data:city_id "K003";
+    data:province_id "P001";
+    data:city "Bogor".
+
+data:4 rdf:type data:City;
+    data:city_id "K004";
+    data:province_id "P001";
+    data:city "Cimahi".
+
+data:5 rdf:type data:City;
+    data:city_id "K005";
+    data:province_id "P001";
+    data:city "Cirebon".
+
+data:6 rdf:type data:City;
+    data:city_id "K006";
+    data:province_id "P002";
+    data:city "Jakarta Barat".
+
+data:7 rdf:type data:City;
+    data:city_id "K007";
+    data:province_id "P002";
+    data:city "Jakarta Pusat".
+
+data:8 rdf:type data:City;
+    data:city_id "K008";
+    data:province_id "P002";
+    data:city "Jakarta Selatan".
+
+data:9 rdf:type data:City;
+    data:city_id "K009";
+    data:province_id "P002";
+    data:city "Jakarta Timur".
+
+data:10 rdf:type data:City;
+    data:city_id "K010";
+    data:province_id "P002";
+    data:city "Jakarta Utara".

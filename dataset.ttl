@@ -2,12 +2,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 data:1 rdf:type data:Restaurant;
-    data:id "0001";
+    data:id "R001";
     data:name "Alas Daun Restaurant";
-    data:province "Jawa Barat";
-    data:city "Bandung";
-    data:category "sundanese";
-    data:specialMenu "Ayam Bumbu Hejo";
+    data:city_id "K001";
+    data:category_id "C002";
+    data:special_menu_id "S001";
     data:address "Jl. Citarum No.34, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40116";
     data:rating "4.5";
     data:phone "(022) 7231101";
@@ -16,12 +15,11 @@ data:1 rdf:type data:Restaurant;
     data:highestPrice "50000".
 
 data:2 rdf:type data:Restaurant;
-    data:id "0002";
+    data:id "R002";
     data:name "Raja Sunda";
-    data:province "Jawa Barat";
-    data:city "Bandung";
-    data:category "sundanese";
-    data:specialMenu "Nasi Tutug Oncom";
+    data:city_id "K001";
+    data:category_id "C002";
+    data:special_menu_id "S002";
     data:address "Jl. Dr. Djunjunan No.63, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40242";
     data:rating "4.5";
     data:phone "(022) 6037688";
@@ -30,12 +28,11 @@ data:2 rdf:type data:Restaurant;
     data:highestPrice "50000".
 
 data:3 rdf:type data:Restaurant;
-    data:id "0003";
+    data:id "R003";
     data:name "Malah Dicubo";
-    data:province "Jawa Barat";
-    data:city "Bandung";
-    data:category "padang";
-    data:specialMenu "Rendang";
+    data:city_id "K001";
+    data:category_id "C003";
+    data:special_menu_id "S003";
     data:address "Malah Dicubo";
     data:rating "4.5";
     data:phone "(022) 4214581";
@@ -44,12 +41,11 @@ data:3 rdf:type data:Restaurant;
     data:highestPrice "50000".
 
 data:4 rdf:type data:Restaurant;
-    data:id "0004";
+    data:id "R004";
     data:name "Glosis Restaurant";
-    data:province "Jawa Barat";
-    data:city "Bandung";
-    data:category "western";
-    data:specialMenu "Steak";
+    data:city_id "K001";
+    data:category_id "C004";
+    data:special_menu_id "S004";
     data:address "Jl. Citarum No.12, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40114";
     data:rating "4.5";
     data:phone "(022) 87831500";
@@ -58,12 +54,11 @@ data:4 rdf:type data:Restaurant;
     data:highestPrice "40.000".
 
 data:5 rdf:type data:Restaurant;
-    data:id "0005";
+    data:id "R005";
     data:name "Yuraku";
-    data:province "Jawa Barat";
-    data:city "Bekasi";
-    data:category "buffet";
-    data:specialMenu "Suki";
+    data:city_id "K002";
+    data:category_id "C001";
+    data:special_menu_id "S005";
     data:address "Jl. Ahmad Yani, Summarecon Mall Bekasi Lantai Ground, Bekasi";
     data:rating "4";
     data:phone "(021) 29572552";
@@ -72,12 +67,11 @@ data:5 rdf:type data:Restaurant;
     data:highestPrice "170.000".
 
 data:6 rdf:type data:Restaurant;
-    data:id "0006";
+    data:id "R006";
     data:name "Gendis Restaurant";
-    data:province "Jawa Barat";
-    data:city "Bekasi";
-    data:category "buffet";
-    data:specialMenu "Suki";
+    data:city_id "K002";
+    data:category_id "C001";
+    data:special_menu_id "S005";
     data:address "Jl. Harapan Indah Bulevar No. 10-12 17131, Bekasi, West Java";
     data:rating "4";
     data:phone "(021) 88868886";
@@ -86,12 +80,11 @@ data:6 rdf:type data:Restaurant;
     data:highestPrice "200.000".
 
 data:7 rdf:type data:Restaurant;
-    data:id "0007";
+    data:id "R007";
     data:name "Restoran Padang Sederhana";
-    data:province "Jawa Barat";
-    data:city "Bekasi";
-    data:category "padang";
-    data:specialMenu "Kikil";
+    data:city_id "K002";
+    data:category_id "C003";
+    data:special_menu_id "S006";
     data:address "Jl. Narogong Raya KM. 7,Bekasi,Indonesia";
     data:rating "4";
     data:phone "(021) 44440292";
@@ -100,12 +93,11 @@ data:7 rdf:type data:Restaurant;
     data:highestPrice "40.000".
 
 data:8 rdf:type data:Restaurant;
-    data:id "0008";
+    data:id "S008";
     data:name "Cibiuk - Rumah Makan Khas Sunda";
-    data:province "Jawa Barat";
-    data:city "Bekasi";
-    data:category "sundanese";
-    data:specialMenu "Ayam Bumbu Hejo";
+    data:city_id "K002";
+    data:category_id "C002";
+    data:special_menu_id "S001";
     data:address "Jl. RA Kartini No.11B, 17116, Bekasi, West Java";
     data:rating "4";
     data:phone "(021) 46640292";
@@ -114,12 +106,11 @@ data:8 rdf:type data:Restaurant;
     data:highestPrice "407.000".
 
 data:9 rdf:type data:Restaurant;
-    data:id "0009";
+    data:id "S009";
     data:name "Djoeragan Resto & Lounge";
-    data:province "Jawa Barat";
-    data:city "Bogor";
-    data:category "buffet";
-    data:specialMenu "Dessert";
+    data:city_id "K003";
+    data:category_id "C001";
+    data:special_menu_id "S007";
     data:address "Suryakencana St No.179-181, RT.02/RW.02, Babakan Pasar, Central Bogor, Bogor City, West Java 16126";
     data:rating "4.5";
     data:phone "(0251) 7565101";
@@ -128,12 +119,11 @@ data:9 rdf:type data:Restaurant;
     data:highestPrice "200.000".
 
 data:10 rdf:type data:Restaurant;
-    data:id "0010";
+    data:id "S010";
     data:name "Gurih 7 Bogor";
-    data:province "Jawa Barat";
-    data:city "Bogor";
-    data:category "sundanese";
-    data:specialMenu "Seafood";
+    data:city_id "K003";
+    data:category_id "C002";
+    data:special_menu_id "S008";
     data:address "Jl. Raya Pajajaran No.102, RT.03/RW.12, Bantarjati, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153";
     data:rating "4.5";
     data:phone "(0251) 8317889";
@@ -142,12 +132,11 @@ data:10 rdf:type data:Restaurant;
     data:highestPrice "425.000".
 
 data:11 rdf:type data:Restaurant;
-    data:id "0011";
+    data:id "S011";
     data:name "Restoran Trio Masakan Padang";
-    data:province "Jawa Barat";
-    data:city "Bogor";
-    data:category "padang";
-    data:specialMenu "Sate Padang";
+    data:city_id "K003";
+    data:category_id "C003";
+    data:special_menu_id "S009";
     data:address "Jl. Raya Pajajaran No.221, RT.02/RW.11, Bantarjati, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153";
     data:rating "4.5";
     data:phone "(0251) 8360635";
@@ -156,12 +145,11 @@ data:11 rdf:type data:Restaurant;
     data:highestPrice "100.000".
 
 data:12 rdf:type data:Restaurant;
-    data:id "0012";
+    data:id "S012";
     data:name "B'Steak Grill & Pancake Bogor";
-    data:province "Jawa Barat";
-    data:city "Bogor";
-    data:category "western";
-    data:specialMenu "Steak";
+    data:city_id "K003";
+    data:category_id "C004";
+    data:special_menu_id "S004";
     data:address "Jl. Pajajaran Indah V No.45, RT.01/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143";
     data:rating "4.5";
     data:phone "(0251) 7568738";
@@ -170,12 +158,11 @@ data:12 rdf:type data:Restaurant;
     data:highestPrice "58.500".
 
 data:13 rdf:type data:Restaurant;
-    data:id "0013";
+    data:id "S013";
     data:name "Fat Oppa Cimahi";
-    data:province "Jawa Barat";
-    data:city "Cimahi";
-    data:category "buffet";
-    data:specialMenu "Korean Food";
+    data:city_id "K004";
+    data:category_id "C001";
+    data:special_menu_id "S010";
     data:address "Jl.Raya Barat No.772, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40526";
     data:rating "4";
     data:phone "(022) 6657018";
@@ -184,12 +171,11 @@ data:13 rdf:type data:Restaurant;
     data:highestPrice "69.500".
 
 data:14 rdf:type data:Restaurant;
-    data:id "0014";
+    data:id "S014";
     data:name "Sunda Nikmat Family Resto";
-    data:province "Jawa Barat";
-    data:city "Cimahi";
-    data:category "sundanese";
-    data:specialMenu "Pencok Leunca";
+    data:city_id "K004";
+    data:category_id "C002";
+    data:special_menu_id "S011";
     data:address "Jl.Raya Barat No.698, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40524";
     data:rating "4";
     data:phone "(022) 6649333";
@@ -198,12 +184,11 @@ data:14 rdf:type data:Restaurant;
     data:highestPrice "65.000".
 
 data:15 rdf:type data:Restaurant;
-    data:id "0015";
+    data:id "S015";
     data:name "Rumah Makan Kiambang Raya";
-    data:province "Jawa Barat";
-    data:city "Cimahi";
-    data:category "padang";
-    data:specialMenu "Rendang";
+    data:city_id "K004";
+    data:category_id "C003";
+    data:special_menu_id "S003";
     data:address "Jl. Jend. H. Amir Machmud No.283, RT.01/RW.06, Cigugur Tengah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40522";
     data:rating "4.5";
     data:phone "(022) 20662138";
@@ -212,12 +197,11 @@ data:15 rdf:type data:Restaurant;
     data:highestPrice "108.000".
 
 data:16 rdf:type data:Restaurant;
-    data:id "0016";
+    data:id "S016";
     data:name "Rumah Makan Padang Sinar Tanjung";
-    data:province "Jawa Barat";
-    data:city "Cimahi";
-    data:category "padang";
-    data:specialMenu "Sate Padang";
+    data:city_id "K004";
+    data:category_id "C003";
+    data:special_menu_id "S009";
     data:address "Jl. Baros No.20, Baros, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40521";
     data:rating "4.5";
     data:phone "0852-6371-9150";
@@ -226,12 +210,11 @@ data:16 rdf:type data:Restaurant;
     data:highestPrice "40.000".
 
 data:17 rdf:type data:Restaurant;
-    data:id "0017";
+    data:id "S017";
     data:name "Oasis Bistro";
-    data:province "Jawa Barat";
-    data:city "Cirebon";
-    data:category "buffet";
-    data:specialMenu "Sop Buntut";
+    data:city_id "K005";
+    data:category_id "C001";
+    data:special_menu_id "S012";
     data:address "Aston Cirebon Hotel, Lobby, Cirebon, Jawa Barat";
     data:rating "4";
     data:phone "(0231) 8298000";
@@ -240,12 +223,11 @@ data:17 rdf:type data:Restaurant;
     data:highestPrice "140.000".
 
 data:18 rdf:type data:Restaurant;
-    data:id "0018";
+    data:id "S018";
     data:name "Bumbu Desa";
-    data:province "Jawa Barat";
-    data:city "Cirebon";
-    data:category "sundanese";
-    data:specialMenu "Sambal Nanas";
+    data:city_id "K005";
+    data:category_id "C002";
+    data:special_menu_id "S013";
     data:address "Jl. Dr. Cipto Mangunkusumo No. 207, Cirebon, Jawa Barat";
     data:rating "4";
     data:phone "(0231) 8298001";
@@ -254,12 +236,11 @@ data:18 rdf:type data:Restaurant;
     data:highestPrice "43.500".
 
 data:19 rdf:type data:Restaurant;
-    data:id "0019";
+    data:id "S019";
     data:name "RM Padang Sederhana";
-    data:province "Jawa Barat";
-    data:city "Cirebon";
-    data:category "padang";
-    data:specialMenu "Rendang";
+    data:city_id "K005";
+    data:category_id "C003";
+    data:special_menu_id "S003";
     data:address "Jln. RA. Kartini no 28, 45122, Cirebon";
     data:rating "4";
     data:phone "(0231) 234111";
@@ -268,12 +249,11 @@ data:19 rdf:type data:Restaurant;
     data:highestPrice "40.000".
 
 data:20 rdf:type data:Restaurant;
-    data:id "0020";
+    data:id "S020";
     data:name "Shukaku BBQ & Shabu";
-    data:province "Jawa Barat";
-    data:city "Cirebon";
-    data:category "western";
-    data:specialMenu "Steak";
+    data:city_id "K005";
+    data:category_id "C004";
+    data:special_menu_id "S004";
     data:address "Jl. Kartini No. 69,45123, Cirebon";
     data:rating "4.5";
     data:phone "(0231) 8807353";
@@ -282,12 +262,11 @@ data:20 rdf:type data:Restaurant;
     data:highestPrice "200.000".
 
 data:21 rdf:type data:Restaurant;
-    data:id "0021";
+    data:id "S021";
     data:name "Manse Korean Grill Cirebon";
-    data:province "Jawa Barat";
-    data:city "Cirebon";
-    data:category "buffet";
-    data:specialMenu "Korean Food";
+    data:city_id "K005";
+    data:category_id "C001";
+    data:special_menu_id "S010";
     data:address "Jl. DR. Cipto Mangunkusumo No.75, Pekiringan, Kec. Kesambi, Kota Cirebon, Jawa Barat 45131";
     data:rating "4";
     data:phone "0878-4877-7668";
